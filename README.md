@@ -98,66 +98,6 @@ The accuracy is misleading because High Risk is the majority class. The model do
 4. Evaluate models against a majority-class baseline using macro F1, balanced accuracy, and minority-class recall.
 5. Avoid operational deployment until the target has a clear business definition and measurable relationship with leakage-safe predictors.
 
-## Repository structure
-
-```text
-supply-chain-logistics-analysis/
-├── Supply_Chain_Logistics_Analysis_Portfolio.ipynb
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── dynamic_supply_chain_logistics_dataset.csv
-│   └── processed/
-│       ├── supply_chain_clean.csv
-│       └── data_quality_report.csv
-└── reports/
-    └── figures/
-        ├── monthly_delivery_deviation.png
-        ├── risk_class_distribution.png
-        ├── delivery_deviation_by_risk.png
-        ├── delay_by_weekday.png
-        ├── delivery_deviation_correlations.png
-        ├── delay_by_supplier_reliability.png
-        ├── shipping_cost_vs_delay.png
-        └── baseline_confusion_matrix.png
-```
-
-## How to run
-
-1. Clone or download the repository.
-2. Download the dataset from Kaggle.
-3. Place `dynamic_supply_chain_logistics_dataset.csv` inside `data/`.
-4. Create and activate a virtual environment.
-5. Install the dependencies.
-6. Open the notebook and run all cells.
-
-```bash
-python -m venv .venv
-```
-
-Windows:
-
-```bash
-.venv\Scripts\activate
-```
-
-macOS/Linux:
-
-```bash
-source .venv/bin/activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Start Jupyter:
-
-```bash
-jupyter notebook
-```
 
 ## Limitations
 
