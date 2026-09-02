@@ -1,5 +1,7 @@
 # 🚚 Supply Chain Logistics Performance Analysis
 
+![Supply Chain Logistics Performance Analysis](./assets/supply_chain_cover.jpg)
+
 > **End-to-end Python analysis of logistics performance, delivery-time deviation, operational risk, and predictive modelling.**
 
 📓 **[View the Full Jupyter Notebook](./Supply_Chain_Logistics_Analysis_Portfolio.ipynb)**
